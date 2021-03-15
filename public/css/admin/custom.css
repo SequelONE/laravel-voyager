@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.voyager .side-menu.sidebar-inverse {
+    background: #fff;
+    background: linear-gradient(
+45deg
+,#fff,#fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#353d47",endColorstr="#21292e",GradientType=1);
+    overflow-x: hidden;
+    -webkit-transition: width .5s cubic-bezier(.19,1,.22,1);
+    transition: width .5s cubic-bezier(.19,1,.22,1);
+    box-shadow: 3px 0 6px 0 rgb(0 0 0 / 5%), 3px 0 15px 0 rgb(0 0 0 / 10%);
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #000;
+    background-color: #fff;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li.active>a {
+    color: #000;
+    background: #eee;
+    border-left: 0;
+}
+
+.voyager .side-menu.sidebar-inverse .navbar li>a:hover {
+    color: #000;
+    background: #eee;
+}
+
+.voyager .panel {
+    margin-bottom: 22px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+}
+
+.page-title {
+    display: inline-block;
+    height: auto;
+    font-size: 18px;
+    height: 70px;
+    line-height: 12px!important;
+    margin-top: 3px;
+    padding-top: 31px;
+    color: #555;
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.breadcrumb {
+    list-style: none;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+    top: 2px;
+    border: 1px solid #f9f9f9;
+    font-size: 14px;
+    padding: 4px 15px 4px 10px;
+}
+.app-container {
+    min-height: 100%;
+    position: relative;
+    background: #eeeeee;
+    padding-bottom: 30px;
+}
+
+.voyager .navbar, .voyager .navbar.navbar-default {
+    border-bottom: 0;
+    box-shadow: none;
+    background: #434f8f;
+}
+
+.hamburger-inner {
+    width: 15px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    -webkit-transition: all .3s cubic-bezier(.19,1,.22,1);
+    transition: all .3s cubic-bezier(.19,1,.22,1);
+}
+
+.hamburger-inner:after, .hamburger-inner:before {
+    height: 2px;
+    background: #fff;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    content: "";
+    -webkit-transition: all .5s cubic-bezier(.19,1,.22,1);
+    transition: all .5s cubic-bezier(.19,1,.22,1);
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    color: #fff;
+}
+
+.voyager .settings .nav-tabs a.active {
+    text-align: center;
+    background: #eeeeee;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    top: -1px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.dd-empty, .dd-item, .dd-placeholder {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    opacity: .9;
+    background: #49569c;
+    border: 0;
+    border-radius: 3px;
+}
+
+.language-selector {
+    float: right!important;
+    padding: 0!important;
+    margin-top: 18px;
+}
+
+.page-title>i {
+    font-size: 24px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+    margin-right: 10px;
+}
+
+.page-title span {
+    font-size: 12px;
+    font-weight: normal;
+    top: -12px;
+    position: relative;
+}
+
+.voyager .compass .nav-tabs a {
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    background: #f8f8f8;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    top: -1px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.app-container .side-menu .panel.widget h4 {
+    float: left;
+    display: block;
+    position: absolute;
+    left: 60px;
+    top: -7px;
+    width: 190px;
+    text-align: left;
+    opacity: 1;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    margin-top: 20px;
+    overflow: hidden;
+    height: 26px;
+    font-size: 14px;
+}
+
+.side-menu .panel.widget {
+    padding: 12px 0;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+.expanded .side-menu .panel.widget .dimmer, .side-menu:hover .panel.widget .dimmer {
+    background: none;
+}
+
+.panel.widget .dimmer {
+    background: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c92d353d",endColorstr="#802d353d",GradientType=1);
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background: #eee;
+    color: #000;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+}
