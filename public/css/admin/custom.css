@@ -23,6 +23,13 @@ body, html {
     background-color: #fff;
 }
 
+.form-control {
+    color: #000;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #00000073;
+}
+
 .voyager .side-menu.sidebar-inverse .navbar li.active>a {
     color: #000;
     background: #eee;
